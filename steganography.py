@@ -32,7 +32,7 @@ class EDPD(Frame):
     def Encode(self):
         self.pded.destroy()
         EncScreen = Tk()
-        EncScreen.title("Encode- Antra")
+        EncScreen.title("Encode- cosmos-dx")
         EncScreen.geometry('%dx%d+%d+%d' % (self.w, self.h, self.xpos, self.ypos))
         EncScreen.config(bg="yellow")
         label = Label(text="Confidential Message")
@@ -68,7 +68,7 @@ class EDPD(Frame):
     def Decode(self):
         self.pded.destroy()
         DecScreen = Tk()
-        DecScreen.title("Decode- Akshita")
+        DecScreen.title("Decode- cosmos_dx")
         DecScreen.geometry('%dx%d+%d+%d' % (self.w, self.h, self.xpos, self.ypos))
         DecScreen.config(bg="pink")
         SelectButton = Button(text="Select the file",command= self.OpenFile)
